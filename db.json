@@ -102,35 +102,10 @@
       "id": 12
     },
     {
-      "id": 13,
-      "userId": 5,
-      "libraryId": 2,
-      "deleted": true,
-      "title": "The Hobbit or There and Back Again",
-      "author": "J.R.R. Tolkien",
-      "coverMed": "https://covers.openlibrary.org/b/id/8406787-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/8406787-L.jpg",
-      "isbn": 9780345339683,
-      "url": "https://openlibrary.org/books/OL5526619M/The_Hobbit_or_There_and_Back_Again",
-      "pages": 287
-    },
-    {
-      "id": 14,
-      "userId": 5,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "coverMed": "https://covers.openlibrary.org/b/id/10695948-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/10695948-L.jpg",
-      "isbn": 9780547928227,
-      "url": "https://openlibrary.org/books/OL32029023M/The_Hobbit"
-    },
-    {
       "id": 15,
       "userId": 1,
       "libraryId": 2,
-      "deleted": true,
+      "deleted": false,
       "title": "The sparrow",
       "author": "Mary Doria Russell",
       "coverMed": "https://covers.openlibrary.org/b/id/8261354-M.jpg",
@@ -153,19 +128,6 @@
       "id": 16
     },
     {
-      "id": 17,
-      "userId": 1,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "Dumbing Us Down -25th Anniversary Edition",
-      "author": "John Taylor Gatto",
-      "coverMed": "https://covers.openlibrary.org/b/id/8876072-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/8876072-L.jpg",
-      "isbn": 9780865718548,
-      "url": "https://openlibrary.org/books/OL27414187M/Dumbing_Us_Down_-25th_Anniversary_Edition",
-      "pages": 144
-    },
-    {
       "userId": 1,
       "libraryId": 2,
       "deleted": false,
@@ -177,71 +139,6 @@
       "url": "https://openlibrary.org/books/OL8167847M/Gabriel_Garcia_Marquez's_Love_in_the_Time_of_Cholera",
       "pages": 87,
       "id": 18
-    },
-    {
-      "id": 22,
-      "userId": 1,
-      "libraryId": 2,
-      "deleted": true,
-      "title": "Amish Nurse's Suitor",
-      "author": "Carrie Lighte",
-      "coverMed": "./../book-cover-not-found.jpg",
-      "coverLarge": "./../book-cover-not-found.jpg",
-      "isbn": 9781335488060,
-      "url": "https://openlibrary.org/books/OL29833625M/Amish_Nurse's_Suitor",
-      "pages": 224
-    },
-    {
-      "id": 23,
-      "userId": 1,
-      "libraryId": 2,
-      "deleted": true,
-      "title": "Amish Nurse's Suitor",
-      "author": "Carrie Lighte",
-      "coverMed": "./../book-cover-not-found.jpg",
-      "coverLarge": "./../book-cover-not-found.jpg",
-      "isbn": 9781335488060,
-      "url": "https://openlibrary.org/books/OL29833625M/Amish_Nurse's_Suitor",
-      "pages": 224
-    },
-    {
-      "id": 24,
-      "userId": 1,
-      "libraryId": 2,
-      "deleted": true,
-      "title": "Amish Nurse's Suitor",
-      "author": "Carrie Lighte",
-      "coverMed": "./../book-cover-not-found.jpg",
-      "coverLarge": "./../book-cover-not-found.jpg",
-      "isbn": 9781335488060,
-      "url": "https://openlibrary.org/books/OL29833625M/Amish_Nurse's_Suitor",
-      "pages": 224
-    },
-    {
-      "id": 26,
-      "userId": 6,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "Amish Triplets for Christmas",
-      "author": "Carrie Lighte",
-      "coverMed": "./../book-cover-not-found.jpg",
-      "coverLarge": "./../book-cover-not-found.jpg",
-      "isbn": 9780373899708,
-      "url": "https://openlibrary.org/books/OL29762911M/Amish_Triplets_for_Christmas",
-      "pages": 288
-    },
-    {
-      "id": 28,
-      "userId": 6,
-      "libraryId": 2,
-      "deleted": true,
-      "title": "Love in the time of cholera",
-      "author": "Gabriel García Márquez",
-      "coverMed": "https://covers.openlibrary.org/b/id/100456-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/100456-L.jpg",
-      "isbn": 9780140281644,
-      "url": "https://openlibrary.org/books/OL93954M/Love_in_the_time_of_cholera",
-      "pages": 348
     },
     {
       "userId": 2,
@@ -309,19 +206,6 @@
       "id": 36
     },
     {
-      "id": 37,
-      "userId": 1,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "Python for Everybody: Exploring Data in Python 3",
-      "author": "Dr. Charles Russell Severance",
-      "coverMed": "https://covers.openlibrary.org/b/id/8512502-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/8512502-L.jpg",
-      "isbn": 9781530051120,
-      "url": "https://openlibrary.org/books/OL26837032M/Python_for_Everybody_Exploring_Data_in_Python_3",
-      "pages": 244
-    },
-    {
       "userId": 1,
       "libraryId": 1,
       "deleted": false,
@@ -333,19 +217,6 @@
       "url": "https://openlibrary.org/books/OL16180205M/Harry_Potter_and_the_Sorcerer's_Stone",
       "pages": 385,
       "id": 38
-    },
-    {
-      "id": 39,
-      "userId": 1,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "The Perks of Being a Wallflower",
-      "author": "Stephen Chbosky",
-      "coverMed": "https://covers.openlibrary.org/b/id/8347416-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/8347416-L.jpg",
-      "isbn": 9780671027346,
-      "url": "https://openlibrary.org/books/OL114584M/The_Perks_of_Being_a_Wallflower",
-      "pages": 213
     },
     {
       "userId": 1,
@@ -385,19 +256,6 @@
       "url": "https://openlibrary.org/books/OL21599309M/Jitterbug_perfume",
       "pages": 342,
       "id": 42
-    },
-    {
-      "id": 43,
-      "userId": 1,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "Jitterbug perfume",
-      "author": "Tom Robbins",
-      "coverMed": "https://covers.openlibrary.org/b/id/9215274-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/9215274-L.jpg",
-      "isbn": 9780553348989,
-      "url": "https://openlibrary.org/books/OL21599309M/Jitterbug_perfume",
-      "pages": 342
     },
     {
       "userId": 1,
@@ -450,19 +308,6 @@
       "url": "https://openlibrary.org/books/OL9129556M/Las_Aventuras_Del_Capitan_Calzoncillos_The_Adventures_of_Captain_Underpants",
       "pages": 126,
       "id": 47
-    },
-    {
-      "id": 48,
-      "userId": 1,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "Las Aventuras Del Capitan Calzoncillos / The Adventures of Captain Underpants",
-      "author": "Dav Pilkey",
-      "coverMed": "https://covers.openlibrary.org/b/id/4909949-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/4909949-L.jpg",
-      "isbn": 9788434887152,
-      "url": "https://openlibrary.org/books/OL9129556M/Las_Aventuras_Del_Capitan_Calzoncillos_The_Adventures_of_Captain_Underpants",
-      "pages": 126
     },
     {
       "userId": 4,
@@ -554,45 +399,6 @@
       "isbn": 9780449912553,
       "url": "https://openlibrary.org/books/OL3322380M/The_sparrow",
       "pages": 408
-    },
-    {
-      "id": 56,
-      "userId": 4,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "Jitterbug perfume",
-      "author": "Tom Robbins",
-      "coverMed": "https://covers.openlibrary.org/b/id/9215274-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/9215274-L.jpg",
-      "isbn": 9780553348989,
-      "url": "https://openlibrary.org/books/OL21599309M/Jitterbug_perfume",
-      "pages": 342
-    },
-    {
-      "id": 57,
-      "userId": 4,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "Harry Potter and the Sorcerer's Stone",
-      "author": "J. K. Rowling",
-      "coverMed": "https://covers.openlibrary.org/b/id/10200800-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/10200800-L.jpg",
-      "isbn": 9780439362139,
-      "url": "https://openlibrary.org/books/OL16180205M/Harry_Potter_and_the_Sorcerer's_Stone",
-      "pages": 385
-    },
-    {
-      "id": 58,
-      "userId": 4,
-      "libraryId": 1,
-      "deleted": true,
-      "title": "Harry Potter and the Sorcerer's Stone",
-      "author": "J. K. Rowling",
-      "coverMed": "https://covers.openlibrary.org/b/id/10200800-M.jpg",
-      "coverLarge": "https://covers.openlibrary.org/b/id/10200800-L.jpg",
-      "isbn": 9780439362139,
-      "url": "https://openlibrary.org/books/OL16180205M/Harry_Potter_and_the_Sorcerer's_Stone",
-      "pages": 385
     },
     {
       "userId": 4,
