@@ -1,0 +1,711 @@
+{
+  "users": [
+    {
+      "name": "Samantha Campbell",
+      "email": "samj0516@gmail.com",
+      "id": 1
+    },
+    {
+      "email": "nut_hoarder03@bmail.com",
+      "name": "Sandy Squirrel",
+      "id": 2
+    },
+    {
+      "email": "lucy.lawless@bmail.com",
+      "name": "Lucy Lawless",
+      "id": 3
+    },
+    {
+      "email": "madison.powell@cmail.com",
+      "name": "Madison Powell",
+      "id": 4
+    },
+    {
+      "email": "j.shah@jmail.com",
+      "name": "Jay Shah",
+      "id": 5
+    },
+    {
+      "email": "j.davis@cmail.com",
+      "name": "Jisie Davis",
+      "id": 6
+    }
+  ],
+  "libraries": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Little Lutie Library",
+      "address": "205 Lutie Street, Nashville TN 37210",
+      "charterNumber": "333432"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "name": "Peachtree's Little Library",
+      "address": "220 Peachtree St., Nashville TN 37210",
+      "charterNumber": "65789"
+    },
+    {
+      "userId": 2,
+      "name": "nuestro grano de arena",
+      "address": "97 Jay St, Nashville, TN 37210",
+      "charterNumber": "984274",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "name": "Millenium Falcon Little Library",
+      "address": "2818 Hartford Dr, Nashville, TN 37210",
+      "charterNumber": "784271"
+    }
+  ],
+  "books": [
+    {
+      "id": 10,
+      "userId": 2,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "You shall know our velocity!",
+      "author": "Dave Eggers",
+      "coverMed": "https://covers.openlibrary.org/b/id/744954-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/744954-L.jpg",
+      "isbn": 9781400033546,
+      "url": "https://openlibrary.org/books/OL3687994M/You_shall_know_our_velocity!",
+      "pages": 401
+    },
+    {
+      "userId": 2,
+      "libraryId": 2,
+      "deleted": false,
+      "title": "The Wandering Earth",
+      "author": "Cixin Liu",
+      "coverMed": "https://covers.openlibrary.org/b/id/8166561-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8166561-L.jpg",
+      "isbn": 9781784978518,
+      "url": "https://openlibrary.org/books/OL26445868M/The_Wandering_Earth",
+      "pages": 447,
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "Throne of glass",
+      "author": "Sarah J. Maas",
+      "coverMed": "https://covers.openlibrary.org/b/id/7268940-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/7268940-L.jpg",
+      "isbn": 9781599906959,
+      "url": "https://openlibrary.org/books/OL25290141M/Throne_of_glass",
+      "pages": 406,
+      "id": 12
+    },
+    {
+      "id": 13,
+      "userId": 5,
+      "libraryId": 2,
+      "deleted": true,
+      "title": "The Hobbit or There and Back Again",
+      "author": "J.R.R. Tolkien",
+      "coverMed": "https://covers.openlibrary.org/b/id/8406787-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8406787-L.jpg",
+      "isbn": 9780345339683,
+      "url": "https://openlibrary.org/books/OL5526619M/The_Hobbit_or_There_and_Back_Again",
+      "pages": 287
+    },
+    {
+      "id": 14,
+      "userId": 5,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "coverMed": "https://covers.openlibrary.org/b/id/10695948-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/10695948-L.jpg",
+      "isbn": 9780547928227,
+      "url": "https://openlibrary.org/books/OL32029023M/The_Hobbit"
+    },
+    {
+      "id": 15,
+      "userId": 1,
+      "libraryId": 2,
+      "deleted": true,
+      "title": "The sparrow",
+      "author": "Mary Doria Russell",
+      "coverMed": "https://covers.openlibrary.org/b/id/8261354-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8261354-L.jpg",
+      "isbn": 9780449912553,
+      "url": "https://openlibrary.org/books/OL3322380M/The_sparrow",
+      "pages": 408
+    },
+    {
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "The Eye of the World",
+      "author": "Robert Jordan",
+      "coverMed": "https://covers.openlibrary.org/b/id/182341-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/182341-L.jpg",
+      "isbn": 9780312850098,
+      "url": "https://openlibrary.org/books/OL2189633M/The_Eye_of_the_World",
+      "pages": 670,
+      "id": 16
+    },
+    {
+      "id": 17,
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "Dumbing Us Down -25th Anniversary Edition",
+      "author": "John Taylor Gatto",
+      "coverMed": "https://covers.openlibrary.org/b/id/8876072-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8876072-L.jpg",
+      "isbn": 9780865718548,
+      "url": "https://openlibrary.org/books/OL27414187M/Dumbing_Us_Down_-25th_Anniversary_Edition",
+      "pages": 144
+    },
+    {
+      "userId": 1,
+      "libraryId": 2,
+      "deleted": false,
+      "title": "Gabriel Garcia Marquez's Love in the Time of Cholera",
+      "author": "Thomas Fahy",
+      "coverMed": "https://covers.openlibrary.org/b/id/630179-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/630179-L.jpg",
+      "isbn": 9780826414755,
+      "url": "https://openlibrary.org/books/OL8167847M/Gabriel_Garcia_Marquez's_Love_in_the_Time_of_Cholera",
+      "pages": 87,
+      "id": 18
+    },
+    {
+      "id": 22,
+      "userId": 1,
+      "libraryId": 2,
+      "deleted": true,
+      "title": "Amish Nurse's Suitor",
+      "author": "Carrie Lighte",
+      "coverMed": "./../book-cover-not-found.jpg",
+      "coverLarge": "./../book-cover-not-found.jpg",
+      "isbn": 9781335488060,
+      "url": "https://openlibrary.org/books/OL29833625M/Amish_Nurse's_Suitor",
+      "pages": 224
+    },
+    {
+      "id": 23,
+      "userId": 1,
+      "libraryId": 2,
+      "deleted": true,
+      "title": "Amish Nurse's Suitor",
+      "author": "Carrie Lighte",
+      "coverMed": "./../book-cover-not-found.jpg",
+      "coverLarge": "./../book-cover-not-found.jpg",
+      "isbn": 9781335488060,
+      "url": "https://openlibrary.org/books/OL29833625M/Amish_Nurse's_Suitor",
+      "pages": 224
+    },
+    {
+      "id": 24,
+      "userId": 1,
+      "libraryId": 2,
+      "deleted": true,
+      "title": "Amish Nurse's Suitor",
+      "author": "Carrie Lighte",
+      "coverMed": "./../book-cover-not-found.jpg",
+      "coverLarge": "./../book-cover-not-found.jpg",
+      "isbn": 9781335488060,
+      "url": "https://openlibrary.org/books/OL29833625M/Amish_Nurse's_Suitor",
+      "pages": 224
+    },
+    {
+      "id": 26,
+      "userId": 6,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "Amish Triplets for Christmas",
+      "author": "Carrie Lighte",
+      "coverMed": "./../book-cover-not-found.jpg",
+      "coverLarge": "./../book-cover-not-found.jpg",
+      "isbn": 9780373899708,
+      "url": "https://openlibrary.org/books/OL29762911M/Amish_Triplets_for_Christmas",
+      "pages": 288
+    },
+    {
+      "id": 28,
+      "userId": 6,
+      "libraryId": 2,
+      "deleted": true,
+      "title": "Love in the time of cholera",
+      "author": "Gabriel García Márquez",
+      "coverMed": "https://covers.openlibrary.org/b/id/100456-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/100456-L.jpg",
+      "isbn": 9780140281644,
+      "url": "https://openlibrary.org/books/OL93954M/Love_in_the_time_of_cholera",
+      "pages": 348
+    },
+    {
+      "userId": 2,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "Girls with No Names",
+      "author": "Serena Burdick",
+      "coverMed": "./../book-cover-not-found.jpg",
+      "coverLarge": "./../book-cover-not-found.jpg",
+      "isbn": 9780778308737,
+      "url": "https://openlibrary.org/books/OL28900941M/Girls_with_No_Names",
+      "pages": 336,
+      "id": 29
+    },
+    {
+      "userId": 2,
+      "libraryId": 2,
+      "deleted": false,
+      "title": "Sweetbitter",
+      "author": "Stephanie Danler",
+      "coverMed": "https://covers.openlibrary.org/b/id/10323608-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/10323608-L.jpg",
+      "isbn": 9781101911860,
+      "url": "https://openlibrary.org/books/OL28427187M/Sweetbitter",
+      "pages": 356,
+      "id": 31
+    },
+    {
+      "userId": 2,
+      "libraryId": 2,
+      "deleted": false,
+      "title": "The sparrow",
+      "author": "Mary Doria Russell",
+      "coverMed": "https://covers.openlibrary.org/b/id/8261354-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8261354-L.jpg",
+      "isbn": 9780449912553,
+      "url": "https://openlibrary.org/books/OL3322380M/The_sparrow",
+      "pages": 408,
+      "id": 34
+    },
+    {
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "Moloka'i",
+      "author": "Alan Brennert",
+      "coverMed": "https://covers.openlibrary.org/b/id/6540796-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/6540796-L.jpg",
+      "isbn": 9780312304355,
+      "url": "https://openlibrary.org/books/OL24214269M/Moloka'i",
+      "pages": 389,
+      "id": 35
+    },
+    {
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "Poor Little Bitch Girl",
+      "author": "Jackie Collins",
+      "coverMed": "https://covers.openlibrary.org/b/id/9396009-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/9396009-L.jpg",
+      "isbn": 9780312548827,
+      "url": "https://openlibrary.org/books/OL28012467M/Poor_Little_Bitch_Girl",
+      "pages": 480,
+      "id": 36
+    },
+    {
+      "id": 37,
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "Python for Everybody: Exploring Data in Python 3",
+      "author": "Dr. Charles Russell Severance",
+      "coverMed": "https://covers.openlibrary.org/b/id/8512502-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8512502-L.jpg",
+      "isbn": 9781530051120,
+      "url": "https://openlibrary.org/books/OL26837032M/Python_for_Everybody_Exploring_Data_in_Python_3",
+      "pages": 244
+    },
+    {
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J. K. Rowling",
+      "coverMed": "https://covers.openlibrary.org/b/id/10200800-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/10200800-L.jpg",
+      "isbn": 9780439362139,
+      "url": "https://openlibrary.org/books/OL16180205M/Harry_Potter_and_the_Sorcerer's_Stone",
+      "pages": 385,
+      "id": 38
+    },
+    {
+      "id": 39,
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "The Perks of Being a Wallflower",
+      "author": "Stephen Chbosky",
+      "coverMed": "https://covers.openlibrary.org/b/id/8347416-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8347416-L.jpg",
+      "isbn": 9780671027346,
+      "url": "https://openlibrary.org/books/OL114584M/The_Perks_of_Being_a_Wallflower",
+      "pages": 213
+    },
+    {
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "Ramona empieza el curso",
+      "author": "Beverly Cleary",
+      "coverMed": "https://covers.openlibrary.org/b/id/8580244-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8580244-L.jpg",
+      "isbn": 9788423927913,
+      "url": "https://openlibrary.org/books/OL9534102M/Ramona_empieza_el_curso",
+      "pages": 175,
+      "id": 40
+    },
+    {
+      "userId": 1,
+      "libraryId": 2,
+      "deleted": false,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J. K. Rowling",
+      "coverMed": "https://covers.openlibrary.org/b/id/10200800-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/10200800-L.jpg",
+      "isbn": 9780439362139,
+      "url": "https://openlibrary.org/books/OL16180205M/Harry_Potter_and_the_Sorcerer's_Stone",
+      "pages": 385,
+      "id": 41
+    },
+    {
+      "userId": 1,
+      "libraryId": 2,
+      "deleted": false,
+      "title": "Jitterbug perfume",
+      "author": "Tom Robbins",
+      "coverMed": "https://covers.openlibrary.org/b/id/9215274-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/9215274-L.jpg",
+      "isbn": 9780553348989,
+      "url": "https://openlibrary.org/books/OL21599309M/Jitterbug_perfume",
+      "pages": 342,
+      "id": 42
+    },
+    {
+      "id": 43,
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "Jitterbug perfume",
+      "author": "Tom Robbins",
+      "coverMed": "https://covers.openlibrary.org/b/id/9215274-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/9215274-L.jpg",
+      "isbn": 9780553348989,
+      "url": "https://openlibrary.org/books/OL21599309M/Jitterbug_perfume",
+      "pages": 342
+    },
+    {
+      "userId": 1,
+      "libraryId": 2,
+      "deleted": false,
+      "title": "Blue Champagne",
+      "author": "John Varley",
+      "coverMed": "https://covers.openlibrary.org/b/id/8453855-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8453855-L.jpg",
+      "isbn": 9780441068685,
+      "url": "https://openlibrary.org/books/OL26798205M/Blue_Champagne",
+      "pages": 290,
+      "id": 44
+    },
+    {
+      "userId": 1,
+      "libraryId": 2,
+      "deleted": false,
+      "title": "W.I.T.C.H.",
+      "author": "Disney Enterprises Inc",
+      "coverMed": "./../book-cover-not-found.jpg",
+      "coverLarge": "./../book-cover-not-found.jpg",
+      "isbn": 9780786839124,
+      "url": "https://openlibrary.org/books/OL11087526M/W.I.T.C.H.",
+      "pages": 128,
+      "id": 45
+    },
+    {
+      "userId": 1,
+      "libraryId": 3,
+      "deleted": false,
+      "title": "The giver",
+      "author": "Lois Lowry",
+      "coverMed": "https://covers.openlibrary.org/b/id/6623704-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/6623704-L.jpg",
+      "isbn": 9780440237686,
+      "url": "https://openlibrary.org/books/OL18887216M/The_giver",
+      "pages": 179,
+      "id": 46
+    },
+    {
+      "userId": 1,
+      "libraryId": 3,
+      "deleted": false,
+      "title": "Las Aventuras Del Capitan Calzoncillos / The Adventures of Captain Underpants",
+      "author": "Dav Pilkey",
+      "coverMed": "https://covers.openlibrary.org/b/id/4909949-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/4909949-L.jpg",
+      "isbn": 9788434887152,
+      "url": "https://openlibrary.org/books/OL9129556M/Las_Aventuras_Del_Capitan_Calzoncillos_The_Adventures_of_Captain_Underpants",
+      "pages": 126,
+      "id": 47
+    },
+    {
+      "id": 48,
+      "userId": 1,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "Las Aventuras Del Capitan Calzoncillos / The Adventures of Captain Underpants",
+      "author": "Dav Pilkey",
+      "coverMed": "https://covers.openlibrary.org/b/id/4909949-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/4909949-L.jpg",
+      "isbn": 9788434887152,
+      "url": "https://openlibrary.org/books/OL9129556M/Las_Aventuras_Del_Capitan_Calzoncillos_The_Adventures_of_Captain_Underpants",
+      "pages": 126
+    },
+    {
+      "userId": 4,
+      "libraryId": 4,
+      "deleted": false,
+      "title": "Python for Everybody: Exploring Data in Python 3",
+      "author": "Dr. Charles Russell Severance",
+      "coverMed": "https://covers.openlibrary.org/b/id/8512502-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8512502-L.jpg",
+      "isbn": 9781530051120,
+      "url": "https://openlibrary.org/books/OL26837032M/Python_for_Everybody_Exploring_Data_in_Python_3",
+      "pages": 244,
+      "id": 49
+    },
+    {
+      "userId": 4,
+      "libraryId": 4,
+      "deleted": false,
+      "title": "Moloka'i",
+      "author": "Alan Brennert",
+      "coverMed": "https://covers.openlibrary.org/b/id/6540796-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/6540796-L.jpg",
+      "isbn": 9780312304355,
+      "url": "https://openlibrary.org/books/OL24214269M/Moloka'i",
+      "pages": 389,
+      "id": 50
+    },
+    {
+      "userId": 4,
+      "libraryId": 4,
+      "deleted": false,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J. K. Rowling",
+      "coverMed": "https://covers.openlibrary.org/b/id/10200800-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/10200800-L.jpg",
+      "isbn": 9780439362139,
+      "url": "https://openlibrary.org/books/OL16180205M/Harry_Potter_and_the_Sorcerer's_Stone",
+      "pages": 385,
+      "id": 51
+    },
+    {
+      "userId": 4,
+      "libraryId": 4,
+      "deleted": false,
+      "title": "The Perks of Being a Wallflower",
+      "author": "Stephen Chbosky",
+      "coverMed": "https://covers.openlibrary.org/b/id/8347416-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8347416-L.jpg",
+      "isbn": 9780671027346,
+      "url": "https://openlibrary.org/books/OL114584M/The_Perks_of_Being_a_Wallflower",
+      "pages": 213,
+      "id": 52
+    },
+    {
+      "userId": 4,
+      "libraryId": 4,
+      "deleted": false,
+      "title": "Las Aventuras Del Capitan Calzoncillos / The Adventures of Captain Underpants",
+      "author": "Dav Pilkey",
+      "coverMed": "https://covers.openlibrary.org/b/id/4909949-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/4909949-L.jpg",
+      "isbn": 9788434887152,
+      "url": "https://openlibrary.org/books/OL9129556M/Las_Aventuras_Del_Capitan_Calzoncillos_The_Adventures_of_Captain_Underpants",
+      "pages": 126,
+      "id": 53
+    },
+    {
+      "userId": 4,
+      "libraryId": 4,
+      "deleted": false,
+      "title": "Jitterbug perfume",
+      "author": "Tom Robbins",
+      "coverMed": "https://covers.openlibrary.org/b/id/9215274-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/9215274-L.jpg",
+      "isbn": 9780553348989,
+      "url": "https://openlibrary.org/books/OL21599309M/Jitterbug_perfume",
+      "pages": 342,
+      "id": 54
+    },
+    {
+      "id": 55,
+      "userId": 4,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "The sparrow",
+      "author": "Mary Doria Russell",
+      "coverMed": "https://covers.openlibrary.org/b/id/8261354-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/8261354-L.jpg",
+      "isbn": 9780449912553,
+      "url": "https://openlibrary.org/books/OL3322380M/The_sparrow",
+      "pages": 408
+    },
+    {
+      "id": 56,
+      "userId": 4,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "Jitterbug perfume",
+      "author": "Tom Robbins",
+      "coverMed": "https://covers.openlibrary.org/b/id/9215274-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/9215274-L.jpg",
+      "isbn": 9780553348989,
+      "url": "https://openlibrary.org/books/OL21599309M/Jitterbug_perfume",
+      "pages": 342
+    },
+    {
+      "id": 57,
+      "userId": 4,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J. K. Rowling",
+      "coverMed": "https://covers.openlibrary.org/b/id/10200800-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/10200800-L.jpg",
+      "isbn": 9780439362139,
+      "url": "https://openlibrary.org/books/OL16180205M/Harry_Potter_and_the_Sorcerer's_Stone",
+      "pages": 385
+    },
+    {
+      "id": 58,
+      "userId": 4,
+      "libraryId": 1,
+      "deleted": true,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J. K. Rowling",
+      "coverMed": "https://covers.openlibrary.org/b/id/10200800-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/10200800-L.jpg",
+      "isbn": 9780439362139,
+      "url": "https://openlibrary.org/books/OL16180205M/Harry_Potter_and_the_Sorcerer's_Stone",
+      "pages": 385
+    },
+    {
+      "userId": 4,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "Coraline",
+      "author": "Neil Gaiman",
+      "coverMed": "https://covers.openlibrary.org/b/id/10481640-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/10481640-L.jpg",
+      "isbn": 9780439576888,
+      "url": "https://openlibrary.org/books/OL24375849M/Coraline",
+      "pages": 162,
+      "id": 59
+    },
+    {
+      "userId": 4,
+      "libraryId": 1,
+      "deleted": false,
+      "title": "The Brief Wondrous Life of Oscar Wao",
+      "author": "Junot Díaz",
+      "coverMed": "https://covers.openlibrary.org/b/id/6252904-M.jpg",
+      "coverLarge": "https://covers.openlibrary.org/b/id/6252904-L.jpg",
+      "isbn": 9781594483295,
+      "url": "https://openlibrary.org/books/OL23819370M/The_Brief_Wondrous_Life_of_Oscar_Wao",
+      "pages": 335,
+      "id": 60
+    }
+  ],
+  "takenBooks": [
+    {
+      "userId": 1,
+      "bookId": 15,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "bookId": 24,
+      "id": 2
+    },
+    {
+      "userId": 6,
+      "bookId": 22,
+      "id": 3
+    },
+    {
+      "userId": 6,
+      "bookId": 23,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "bookId": 17,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "bookId": 28,
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "bookId": 26,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "bookId": 43,
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "bookId": 39,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "bookId": 56,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "bookId": 57,
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "bookId": 58,
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "bookId": 37,
+      "id": 13
+    },
+    {
+      "userId": 4,
+      "bookId": 55,
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "bookId": 55,
+      "id": 15
+    },
+    {
+      "userId": 4,
+      "bookId": 55,
+      "id": 16
+    },
+    {
+      "userId": 4,
+      "bookId": 48,
+      "id": 17
+    }
+  ]
+}
